@@ -1,13 +1,14 @@
 
 import './App.css'
-
+import Header from './components/Header'
+import Blog from './components/blogs/blog'
 function App() {
   
 
   return (
     <>
-     <h1 className='text-xl bg-red-400'>Ajke theika abar shuru
-     </h1>
+     <Header></Header>
+     <BLog></BLog>
     </>
   )
 }
